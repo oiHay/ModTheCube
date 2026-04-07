@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# .gitattributes
+*.shader linguist-language=HLSL
+*.compute linguist-language=HLSL
+*.hlsl linguist-language=HLSL
+*.cginc linguist-language=HLSL

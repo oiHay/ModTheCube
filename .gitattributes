@@ -1,6 +1,21 @@
 # .gitattributes
+
+# Shaders
 *.shader linguist-vendored=true
 *.compute linguist-vendored=true
 *.hlsl linguist-vendored=true
 *.cginc linguist-vendored=true
+*.glsl linguist-vendored=true
+
+# Assets e metadados do Unity (causam o Wolfram Language)
+*.asset linguist-vendored=true
+*.mat linguist-vendored=true
+*.meta linguist-vendored=true
+*.prefab linguist-vendored=true
+*.unity linguist-vendored=true
+*.anim linguist-vendored=true
+*.controller linguist-vendored=true
+*.physicsMaterial2D linguist-vendored=true
+
+# Garante C#
 *.cs linguist-language=C#

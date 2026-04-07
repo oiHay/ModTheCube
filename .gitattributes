@@ -1,5 +1,6 @@
 # .gitattributes
-*.shader linguist-language=HLSL
-*.compute linguist-language=HLSL
-*.hlsl linguist-language=HLSL
-*.cginc linguist-language=HLSL
+*.shader linguist-vendored=true
+*.compute linguist-vendored=true
+*.hlsl linguist-vendored=true
+*.cginc linguist-vendored=true
+*.cs linguist-language=C#

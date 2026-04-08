@@ -44,6 +44,7 @@ public class Cube : MonoBehaviour
 
         _startHue = Random.Range(0f, 1f);
         _fixedAlpha = Random.Range(_alphaRange.x, _alphaRange.y);
+        _colorSpeed = Random.Range(0.001f, 2f);
     }
 
     private void Update()
